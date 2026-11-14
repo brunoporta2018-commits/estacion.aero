@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue()],
   // Rutas relativas: el build (dist/) funciona en cualquier carpeta del hosting
-  base: './',
+
   server: {
     // En desarrollo se usa un proxy para evitar problemas de CORS
     proxy: {
